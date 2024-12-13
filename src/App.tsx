@@ -1,9 +1,7 @@
+import { Tasks } from "./pages/tasks/page";
+
 function App() {
-  return (
-    <div>
-      <p className="text-3xl font-bold underline">Initial App</p>
-    </div>
-  );
+  return <Tasks />;
 }
 
 export default App;
